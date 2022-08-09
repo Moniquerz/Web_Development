@@ -1,0 +1,15 @@
+<%- include('partials/header')  %> 
+
+    <h1>Book Database</h1>
+    <h2>Display Books</h2>
+
+    <% books.forEach(element => { %>
+        <div class="card" >
+            <p>Title: <%= element.title %> </p>
+            <p>Author: <%= element.author %> </p>
+            <p>ISBN: <%= element.isbn %> </p>
+        </div>
+        
+        <% }) %>
+    </body>
+</html>

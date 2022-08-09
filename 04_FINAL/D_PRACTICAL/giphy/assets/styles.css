@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mybtn {
+    background-color: rgb(0, 174, 255);
+    height: 30px;
+    width: 70px;
+}
+
+.box {
+    background-color: rgba(255, 111, 0, 0.825);
+    width: 70%;
+    height: 30px;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 0 auto;
+    padding: 5px;
+    height: 400px;
+    width: 400px;
+}

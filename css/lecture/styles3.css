@@ -1,0 +1,31 @@
+/*Star Selector*/
+
+/* * {
+	border: 1px solid grey;
+} */
+
+/*Descendant Selector*/
+/*This selects all a tags inside of a li*/ 
+
+/* li a {
+	color: pink;
+} */
+
+/*Adjacent selector*/
+/*This will select elements that come after another element on the same level*/
+
+/* h4 + ul {       
+	border: 3px solid purple; 
+} */
+
+/*Attribute Selector*/
+
+/* a[href="http://www.google.com"] {
+	background: yellow;
+} */
+
+/*nth child selector*/
+
+li:nth-of-type(2n) {
+     background: red;
+ }

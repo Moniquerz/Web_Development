@@ -1,0 +1,12 @@
+<%- include('partials/header', {kitty: "About", bodyId : "about_page"}) %>
+<%- include('partials/navbar') %>
+
+    <h1>About page</h1>
+
+    <% data.forEach(el => { %>
+        <%- include('partials/card', {doggy:el}) %>
+     <% }) %>
+
+
+
+<%- include('partials/footer') %>

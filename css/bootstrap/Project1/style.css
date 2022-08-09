@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+#message {
+    font-family: 'Roboto', sans-serif;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.navicon {
+    color: grey;
+    padding: 5px;
+}
+
+.navbar-light .navbar-brand {
+    color: grey;
+}
+
+#background {
+    background: url(assets/background.jpeg) center center no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin-right: 5px;
+}

@@ -1,0 +1,47 @@
+/* .circle1 {
+    background-color: green 
+}
+
+.circle2 {
+    background-color: yellow
+}
+
+.circle3 {
+    background-color: red;
+}
+.classproperties div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 3px;
+    float: left;
+} */
+
+/* p {
+    border: solid 3px black;
+    font-size: 75px;
+} */
+/* 
+a[href="https://www.facebook.com"]{
+    color: blue;
+}
+
+input[type="text"]{
+    color: red;
+} */
+
+/* p:nth-of-type(2){
+    background-color: red;
+}
+
+p:nth-of-type(2n){
+    background-color: red;
+}  */
+
+li:nth-child(3){
+    background-color: red;
+}
+li, p:nth-child(3n){
+    font-weight: bold;
+    font-size: 36px;
+}

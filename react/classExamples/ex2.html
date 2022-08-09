@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script> <!--main library -->
+    <script src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script> <!--react dom - specific to web development -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script> <!-- need this to transpile -->
+</head>
+<body>
+
+    <div id="thebox"> </div>
+    <script type="text/babel">
+    const RandomBox = () => {
+        const fontSize = Math.floor((Math.random() * 80)) + 20;
+        const backgroundColor = ['red', 'green', 'blue',
+      'black'][Math.floor(Math.random() * 4)];
+        const myStyles = {
+            display: 'flex',
+            alignItems: "center",
+            backgroundColor: backgroundColor,
+            fontSize: `${fontSize}px`,
+            height: "200px",
+            width: "500px",
+            color: "white"
+
+            }
+            return (
+                <div style= {myStyles}>
+                   Random Box
+                </div>
+            );
+    }
+    ReactDOM.render(<RandomBox/>, document.getElementById("thebox"));
+</script>
+    
+</body>
+</html>

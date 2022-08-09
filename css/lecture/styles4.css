@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.navbar {
+    background-color: #4267b2;
+    height: 90px;
+}
+
+#logo {
+    color: white;
+    float: left;
+    padding: 22px 60px;
+}
+
+a {
+    float: right;
+    padding: 33px 60px;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color:#039be5 ;
+    color: #ffd54f;
+}

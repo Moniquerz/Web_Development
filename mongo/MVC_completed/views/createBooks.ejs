@@ -1,0 +1,22 @@
+<%- include('partials/header')  %> 
+
+    <h1>Book Database</h1>
+    <h2>Add a Book</h2>
+    <form action="/create/book" method = "POST">
+      <label >
+        Title:
+        <input type="text" name="title">
+      </label>
+      <label >
+        Author:
+        <input type="text" name="author">
+      </label>
+      <label >
+        ISBN:
+        <input type="text" name="isbn">
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+

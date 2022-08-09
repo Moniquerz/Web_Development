@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+#bgImage {
+    background-image: url("assets/background1.jpeg");
+}
+
+body {
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 54px;
+    width:  900px ;
+    margin: 20% auto;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@16.0.0-rc.2/umd/react.development.js"></script> <!--main library -->
+    <script src="https://unpkg.com/react-dom@16.0.0-rc.2/umd/react-dom.development.js"></script> <!--react dom - specific to web development -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script> <!-- need this to transpile -->
+    <link rel="stylesheet" href="ex1.css"></link>
+</head>
+<body>
+    <div id="app"> </div>
+    <script type="text/babel">
+        const Garfield = () => {
+            return (
+                <div className="theimage">
+                    <h1 className="name">Life</h1>
+                    <img src="https://i.imgur.com/F67Eq7J.jpeg"></img>
+                    <h3>How does he feel?</h3>                  
+                   <FeelingsList />
+                </div>
+            );
+        }
+
+        const FeelingsList = () => {
+            const theStyles = {fontSize: "24px", color: "pink"};
+            return (
+                    <ul style={theStyles}>
+                        <li>Happy</li>    
+                        <li>{1 * 8}</li>    
+                    </ul> 
+            );
+        }
+
+        
+        ReactDOM.render(<Garfield/>, document.getElementById("app"));
+    </script>
+</body>
+</html>

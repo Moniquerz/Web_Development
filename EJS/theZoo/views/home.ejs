@@ -1,0 +1,11 @@
+<%- include('partials/header', {kitty: "Home Page", bodyId: "body_page"}) %>
+<%- include('partials/navbar') %>
+
+    <h1>I am the Home page </h1>
+
+
+    <% doggyHorse.forEach(el => { %>
+      <p><%= el.breed %> </p>
+   <% }) %>
+
+<%- include('partials/footer') %>

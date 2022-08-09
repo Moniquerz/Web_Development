@@ -1,0 +1,32 @@
+body {
+    background: green;
+}
+
+h1 {
+    color: rgb(184, 128, 184);
+} 
+
+#greetings {
+    color: goldenrod;
+}
+
+#burger {
+    color: floralwhite;
+    font-size: large;
+}
+
+#onions {
+    color: orange;
+}
+
+#fries {
+    color: paleturquoise;
+}
+
+.strawberry {
+    background: red;
+}
+
+.blueberry {
+    background: blue;
+}

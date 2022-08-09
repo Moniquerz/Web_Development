@@ -1,0 +1,12 @@
+<h1>Results Page</h1>
+
+<p><a href="/">Form Page</a></p>
+
+<% data.forEach( el => { %>
+    <h4> <%= el.fname %></h4>
+    <h4> <%= el.lname %></h4>
+    <h4> <%= el.age %></h4>
+    <h4> <%= el.isAlive ? "ALIVE" : "DEAD" %></h4>
+    
+<% }); %>
+

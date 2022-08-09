@@ -1,0 +1,121 @@
+h1 {
+    border: solid red 5px;
+}
+
+.cat {
+    background-color: black;
+    
+}
+
+#dog {
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+#mouse {
+    color: yellow;
+    border: blue dashed 5px;
+    width: 200px;
+    padding-right: 100px;
+}
+
+#bird {
+    color: lightgreen;
+    border: green ridge 5px;
+    width: 50vw;
+    text-align: right;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-left: 100px;
+    /* changed padding-right to padding-left to match the example pic */
+    padding-bottom: 100px;
+}
+
+#horse {
+    color: orange;
+    margin: auto;
+    padding: 100px 0px 0px 100px;  
+}
+
+img {
+    /* width: 50%; */
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+/* div {
+    border: solid red 5px;
+    width: 25%;
+    height: 300px;
+    margin: auto;
+} */
+
+p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.changeFont {
+    color: darkblue;
+}
+
+p#p3 {
+    color: red;
+}
+
+p.changeFont {
+    color: green;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#love {
+    background-color: green;
+    width: 33%;
+}
+
+#spicy {
+    background-color: yellow;
+    margin: auto;
+    width: 33%;
+    text-align: center;
+}
+
+#food {
+    background-color: red;
+    float: right;
+    width: 33%;
+    text-align:right
+}
+
+.blue {
+    background-color: blue;
+    margin: 0%;
+}
+
+.green {
+    background-color: green;
+    margin: auto;   
+}
+
+.orange {
+    background-color: orange;
+    float: right;
+}
+
+div {
+    border: solid red 5px;
+    padding: 30px 30px 15px 30px ;
+    height: 150px;
+    width: 200px;
+}

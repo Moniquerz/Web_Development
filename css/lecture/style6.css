@@ -1,0 +1,159 @@
+/* h1:hover {
+    background-color: purple;
+}
+
+button:hover {
+    color: red;
+}
+
+input:active {
+    padding-bottom: 100px;
+    background-color: red;
+}
+
+button:active {
+    background-color: burlywood;
+    font-size: 40px;
+} */
+
+/* second example */
+/* button {
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #5c6bc0;
+    color: white;
+    padding: 30px 90px;
+    border: none;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    position: relative; 
+    /* relative will make the button clickable */
+    /* cursor: pointer;
+    letter-spacing: 2px;
+    box-shadow: 0px 7px #303f9f
+}
+
+button:hover {
+    box-shadow: 0px 3.5px #303f9f;
+    top: 2px;
+}
+
+button:active {
+    box-shadow: 0px 0px #303f9f;
+    top: 6px;
+} */ 
+
+/* third example */
+
+/* .div1 {
+    height: 200px;
+    width: 200px;
+    background: green; 
+    position: relative;
+    top: 60px;
+    
+}
+.div2 {
+    height: 200px;
+    width: 200px;
+    background: red;
+    
+} */
+
+/* fourth example */
+
+
+/* .container { /* this is the parent element  */
+    /* height: 300px;
+    width: 300px;
+    background-color: grey;
+    position: relative;
+}
+
+.innerdiv {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 30px;
+} */ 
+
+
+/* broccoli cheddar soup */
+/* img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: auto;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+
+/* landing page */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: Roboto;
+}
+
+.backgroundImg {
+    background-image: url("pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.formcontainer {
+    position: fixed;
+    background-color: white;
+    width: 400px;
+    margin: 40px;
+    padding: 25px;
+    border: solid black 3px;
+    border-radius: 50px;
+}
+
+input {
+    padding: 15px;
+    width: 100%;
+    margin: 15px 0px 30px 0px;
+    background-color: #eeeeee;
+}
+
+input:focus {
+    background-color: #e0e0e0;
+}
+
+.thebutton {
+    padding: 16px 20px;
+    font-size: 28px;
+    background-color: #f44336;
+    width: 100%;
+    color: white;
+    border-radius: 30px;
+}
+
+.thebutton:hover {
+    background-color: orange;
+    color: purple;
+    transition: 0.5s;
+}

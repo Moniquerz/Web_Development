@@ -1,0 +1,16 @@
+<h1>this is the horse page</h1>
+
+<% let dog = ["boston terrier", "bulldog"] %>
+
+<!--This is an H1 with a variable being evaluated and dispalyed-->
+<h1>
+    <%= dog %>
+</h1>
+
+<% dog.forEach(el => { %>
+  <h4>  
+      <%= el %>
+  </h4>  
+<% })  %>
+
+
